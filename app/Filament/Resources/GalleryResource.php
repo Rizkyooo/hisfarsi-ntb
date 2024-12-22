@@ -39,7 +39,6 @@ class GalleryResource extends Resource
                     ->imageEditor()
             ]);
     }
-
     public static function table(Table $table): Table
     {
         return $table
