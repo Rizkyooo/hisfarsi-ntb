@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge, and Firefox */
+  .scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  ol {
+    list-style-type: decimal; /* Menampilkan angka 1, 2, 3 */
+    padding-left: 20px; /* Memberi jarak dari tepi kiri */
+  }
+  
+  ol li {
+    margin-bottom: 10px; /* Jarak antar item */
+  }
+
+
+
